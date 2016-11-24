@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (01. Game Framework.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  utility.cpp
+  main.cpp
+  environment.cpp
+  character.cpp
+  Generating Code...
+  01. Game Framework.vcxproj -> D:\Programming\C++ Programming\05. Quality-Code-Homework\Debug\Problem 01. Game Framework.exe
+  01. Game Framework.vcxproj -> D:\Programming\C++ Programming\05. Quality-Code-Homework\Debug\Problem 01. Game Framework.pdb (Full PDB)
