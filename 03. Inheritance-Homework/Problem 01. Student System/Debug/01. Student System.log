@@ -1,0 +1,12 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (01. Student System.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  teacher.cpp
+  student.cpp
+  schoolSystem.cpp
+  schoolMember.cpp
+  guestTeacher.cpp
+  Generating Code...
+d:\programming\c++ programming\03. inheritance-homework\problem 01. student system\schoolsystem.cpp(42): warning C4715: 'getGuestTeacherById': not all control paths return a value
+d:\programming\c++ programming\03. inheritance-homework\problem 01. student system\schoolsystem.cpp(22): warning C4715: 'getStudentById': not all control paths return a value
+d:\programming\c++ programming\03. inheritance-homework\problem 01. student system\schoolsystem.cpp(32): warning C4715: 'getTeacherById': not all control paths return a value
+  01. Student System.vcxproj -> D:\Programming\C++ Programming\03. Inheritance-Homework\Debug\Problem 01. Student System.exe
+  01. Student System.vcxproj -> D:\Programming\C++ Programming\03. Inheritance-Homework\Debug\Problem 01. Student System.pdb (Full PDB)
