@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (01. Characters Count.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  01. Characters Count.cpp
+  01. Characters Count.vcxproj -> D:\Programming\C++ Programming\01. Introduction-Homework\Debug\Problem 01. Characters Count.exe
+  01. Characters Count.vcxproj -> D:\Programming\C++ Programming\01. Introduction-Homework\Debug\Problem 01. Characters Count.pdb (Full PDB)

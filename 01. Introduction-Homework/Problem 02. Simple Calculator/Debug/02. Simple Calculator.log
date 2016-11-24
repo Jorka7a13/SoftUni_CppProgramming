@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (02. Simple Calculator.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  02. Simple Calculator.cpp
+  02. Simple Calculator.vcxproj -> D:\Programming\C++ Programming\01. Introduction-Homework\Debug\Problem 02. Simple Calculator.exe
+  02. Simple Calculator.vcxproj -> D:\Programming\C++ Programming\01. Introduction-Homework\Debug\Problem 02. Simple Calculator.pdb (Full PDB)
