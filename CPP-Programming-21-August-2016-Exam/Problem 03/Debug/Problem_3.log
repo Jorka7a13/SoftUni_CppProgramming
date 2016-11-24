@@ -1,0 +1,109 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Problem_3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  placeForRest.cpp
+  main.cpp
+d:\programs\visual studio 2015 community\vc\include\type_traits(1341): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  d:\programs\visual studio 2015 community\vc\include\type_traits(1444): note: see reference to function template instantiation 'void std::_Invoker_pmf_pointer::_Call<_Ty,std::shared_ptr<Country>,TerrainType,int,double>(_Decayed,_Ty1 &&,TerrainType &&,int &&,double &&)' being compiled
+          with
+          [
+              _Ty=void (__thiscall Country::* )(TerrainType,unsigned int,float),
+              _Decayed=void (__thiscall Country::* )(TerrainType,unsigned int,float),
+              _Ty1=std::shared_ptr<Country>
+          ]
+  d:\programs\visual studio 2015 community\vc\include\thr\xthread(240): note: see reference to function template instantiation 'void std::invoke<void(__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,double>(_Callable &&,std::shared_ptr<Country> &&,TerrainType &&,int &&,double &&)' being compiled
+          with
+          [
+              _Callable=void (__thiscall Country::* )(TerrainType,unsigned int,float)
+          ]
+  d:\programs\visual studio 2015 community\vc\include\thr\xthread(249): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Execute<0,1,2,3,4>(std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,double> &,std::integer_sequence<std::_Ty,0,1,2,3,4>)' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,double>,std::default_delete<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,double>>>,
+              _Ty=std::size_t
+          ]
+  d:\programs\visual studio 2015 community\vc\include\thr\xthread(247): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Execute<0,1,2,3,4>(std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,double> &,std::integer_sequence<std::_Ty,0,1,2,3,4>)' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,double>,std::default_delete<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,double>>>,
+              _Ty=std::size_t
+          ]
+  d:\programs\visual studio 2015 community\vc\include\thr\xthread(244): note: while compiling class template member function 'void std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *) noexcept'
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,double>,std::default_delete<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,double>>>
+          ]
+  d:\programs\visual studio 2015 community\vc\include\thr\xthread(232): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *) noexcept' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,double>,std::default_delete<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,double>>>
+          ]
+  d:\programs\visual studio 2015 community\vc\include\thr\xthread(259): note: see reference to class template instantiation 'std::_LaunchPad<_Target>' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,double>,std::default_delete<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,double>>>
+          ]
+  d:\programs\visual studio 2015 community\vc\include\thread(50): note: see reference to function template instantiation 'void std::_Launch<std::unique_ptr<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,double>,std::default_delete<_Ty>>>(_Thrd_t *,_Target &&)' being compiled
+          with
+          [
+              _Ty=std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,double>,
+              _Target=std::unique_ptr<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,double>,std::default_delete<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,double>>>
+          ]
+  d:\programming\c++ programming\cpp-programming-21-august-2016-exam\problem 03\main.cpp(29): note: see reference to function template instantiation 'std::thread::thread<void(__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>&,TerrainType,int,double,void>(_Fn &&,std::shared_ptr<Country> &,TerrainType &&,int &&,double &&)' being compiled
+          with
+          [
+              _Fn=void (__thiscall Country::* )(TerrainType,unsigned int,float)
+          ]
+d:\programs\visual studio 2015 community\vc\include\type_traits(1341): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  d:\programs\visual studio 2015 community\vc\include\type_traits(1444): note: see reference to function template instantiation 'void std::_Invoker_pmf_pointer::_Call<_Ty,std::shared_ptr<Country>,TerrainType,int,int>(_Decayed,_Ty1 &&,TerrainType &&,int &&,int &&)' being compiled
+          with
+          [
+              _Ty=void (__thiscall Country::* )(TerrainType,unsigned int,float),
+              _Decayed=void (__thiscall Country::* )(TerrainType,unsigned int,float),
+              _Ty1=std::shared_ptr<Country>
+          ]
+  d:\programs\visual studio 2015 community\vc\include\thr\xthread(240): note: see reference to function template instantiation 'void std::invoke<void(__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,int>(_Callable &&,std::shared_ptr<Country> &&,TerrainType &&,int &&,int &&)' being compiled
+          with
+          [
+              _Callable=void (__thiscall Country::* )(TerrainType,unsigned int,float)
+          ]
+  d:\programs\visual studio 2015 community\vc\include\thr\xthread(249): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Execute<0,1,2,3,4>(std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,int> &,std::integer_sequence<std::_Ty,0,1,2,3,4>)' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,int>,std::default_delete<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,int>>>,
+              _Ty=std::size_t
+          ]
+  d:\programs\visual studio 2015 community\vc\include\thr\xthread(247): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Execute<0,1,2,3,4>(std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,int> &,std::integer_sequence<std::_Ty,0,1,2,3,4>)' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,int>,std::default_delete<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,int>>>,
+              _Ty=std::size_t
+          ]
+  d:\programs\visual studio 2015 community\vc\include\thr\xthread(244): note: while compiling class template member function 'void std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *) noexcept'
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,int>,std::default_delete<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,int>>>
+          ]
+  d:\programs\visual studio 2015 community\vc\include\thr\xthread(232): note: see reference to function template instantiation 'void std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *) noexcept' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,int>,std::default_delete<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,int>>>
+          ]
+  d:\programs\visual studio 2015 community\vc\include\thr\xthread(259): note: see reference to class template instantiation 'std::_LaunchPad<_Target>' being compiled
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,int>,std::default_delete<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,int>>>
+          ]
+  d:\programs\visual studio 2015 community\vc\include\thread(50): note: see reference to function template instantiation 'void std::_Launch<std::unique_ptr<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,int>,std::default_delete<_Ty>>>(_Thrd_t *,_Target &&)' being compiled
+          with
+          [
+              _Ty=std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,int>,
+              _Target=std::unique_ptr<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,int>,std::default_delete<std::tuple<void (__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>,TerrainType,int,int>>>
+          ]
+  d:\programming\c++ programming\cpp-programming-21-august-2016-exam\problem 03\main.cpp(28): note: see reference to function template instantiation 'std::thread::thread<void(__thiscall Country::* )(TerrainType,unsigned int,float),std::shared_ptr<Country>&,TerrainType,int,int,void>(_Fn &&,std::shared_ptr<Country> &,TerrainType &&,int &&,int &&)' being compiled
+          with
+          [
+              _Fn=void (__thiscall Country::* )(TerrainType,unsigned int,float)
+          ]
+  country.cpp
+  Generating Code...
+  Problem_3.vcxproj -> D:\Programming\C++ Programming\CPP-Programming-21-August-2016-Exam\Debug\Problem 03.exe
+  Problem_3.vcxproj -> D:\Programming\C++ Programming\CPP-Programming-21-August-2016-Exam\Debug\Problem 03.pdb (Full PDB)
