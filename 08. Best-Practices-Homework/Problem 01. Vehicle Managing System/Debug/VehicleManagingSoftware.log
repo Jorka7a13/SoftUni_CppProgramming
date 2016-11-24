@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (VehicleManagingSoftware.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  vehicleManager.cpp
+  vehicle.cpp
+  main.cpp
+  customDate.cpp
+  Generating Code...
+  VehicleManagingSoftware.vcxproj -> D:\Programming\C++ Programming\08. Best-Practices-Homework\Debug\Problem 01. Vehicle Managing System.exe
+  VehicleManagingSoftware.vcxproj -> D:\Programming\C++ Programming\08. Best-Practices-Homework\Debug\Problem 01. Vehicle Managing System.pdb (Full PDB)
