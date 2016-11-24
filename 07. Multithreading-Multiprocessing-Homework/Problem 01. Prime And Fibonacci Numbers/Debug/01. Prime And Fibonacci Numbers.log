@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (01. Prime And Fibonacci Numbers.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  utility.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  main.cpp
+  01. Prime And Fibonacci Numbers.vcxproj -> D:\Programming\C++ Programming\07. Multithreading-Multiprocessing-Homework\Debug\Problem 01. Prime And Fibonacci Numbers.exe
+  01. Prime And Fibonacci Numbers.vcxproj -> D:\Programming\C++ Programming\07. Multithreading-Multiprocessing-Homework\Debug\Problem 01. Prime And Fibonacci Numbers.pdb (Full PDB)
