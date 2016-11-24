@@ -1,3 +1,5 @@
-﻿  LINK : D:\Programming\C++ Programming\CPP-Programming-21-August-2016-Exam\Debug\Problem 02.exe not found or not built by the last incremental link; performing full link
-  Problem 02.vcxproj -> D:\Programming\C++ Programming\CPP-Programming-21-August-2016-Exam\Debug\Problem 02.exe
-  Problem 02.vcxproj -> D:\Programming\C++ Programming\CPP-Programming-21-August-2016-Exam\Debug\Problem 02.pdb (Full PDB)
+﻿  main.cpp
+d:\github\softuni_cppprogramming\cpp-programming-21-august-2016-exam\problem 02\main.cpp(34): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  LINK : D:\GitHub\SoftUni_CppProgramming\CPP-Programming-21-August-2016-Exam\Debug\Problem 02.exe not found or not built by the last incremental link; performing full link
+  Problem 02.vcxproj -> D:\GitHub\SoftUni_CppProgramming\CPP-Programming-21-August-2016-Exam\Debug\Problem 02.exe
+  Problem 02.vcxproj -> D:\GitHub\SoftUni_CppProgramming\CPP-Programming-21-August-2016-Exam\Debug\Problem 02.pdb (Full PDB)

@@ -52,24 +52,24 @@ Roots solveQuadraticEquation(int a, int b, int c)
 
 int main()
 {
-	//std::string inputString;
-	//std::getline(std::cin, inputString);
-	//std::vector<std::string> inputVector = splitStringByDelimiter(inputString, ' ');
+	std::string inputString;
+	std::getline(std::cin, inputString);
+	std::vector<std::string> inputVector = splitStringByDelimiter(inputString, ' ');
 
-	//int a = stoi(inputVector[0]);
-	//int b = stoi(inputVector[1]);
-	//int c = stoi(inputVector[2]);
+	int a = stoi(inputVector[0]);
+	int b = stoi(inputVector[1]);
+	int c = stoi(inputVector[2]);
 
-	//Roots result = solveQuadraticEquation(a, b, c);
+	Roots result = solveQuadraticEquation(a, b, c);
 
-	//if (result.x1 != result.x1) // Check if roots are NAN.
-	//{
-	//	std::cout << "nan,nan" << std::endl; // Format output for NAN values.
-	//}
-	//else
-	//{
-	//	printf("%0.2f,%0.2f\n", result.x1, result.x2);
-	//}
+	if (result.x1 != result.x1) // Check if roots are NAN.
+	{
+		std::cout << "nan,nan" << std::endl; // Format output for NAN values.
+	}
+	else
+	{
+		printf("%0.2f,%0.2f\n", result.x1, result.x2);
+	}
 
-	//return 0;
+	return 0;
 }
