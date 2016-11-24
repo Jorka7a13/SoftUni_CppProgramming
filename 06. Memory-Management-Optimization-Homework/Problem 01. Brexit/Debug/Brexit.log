@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Brexit.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  voter.cpp
+  results_calculations.cpp
+  main.cpp
+  Generating Code...
+  Brexit.vcxproj -> D:\Programming\C++ Programming\06. Memory-Management-Optimization-Homework\Debug\Problem 01. Brexit.exe
+  Brexit.vcxproj -> D:\Programming\C++ Programming\06. Memory-Management-Optimization-Homework\Debug\Problem 01. Brexit.pdb (Full PDB)
